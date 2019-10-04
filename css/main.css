@@ -1,0 +1,365 @@
+
+body {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: 'Archivo', sans-serif;
+}
+
+img {
+    width: 100%;
+  height: auto;
+}
+
+.sub {
+    color: white;
+}
+
+.carousel-item > img {
+    height: auto;
+}
+
+
+.flex-container {
+  display: flex;
+}
+
+/*NAV*/
+
+
+.bg-dark {
+    background-color: transparent !important;
+}
+
+.navbar-gradient.navbar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.72),rgba(0, 0, 0, 0));
+    z-index: 99;
+}
+
+.navbar-nav .nav-link {
+    text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 0.08em;
+    font-weight: 400;
+}
+
+
+/* HERO IMAGE */
+
+.hero {
+    padding: 4em;
+}
+
+#hero {
+    background-image: url(../img/restaurant.jpg);
+    background-size: cover;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.28)
+}
+
+.h-text{
+  padding: 20% 2%;
+  text-align: center;
+}
+
+.h-text h1 {
+    font-size: 4em;
+    font-weight: 500;
+}
+
+/* PARALLAX */
+
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/pizza.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* GALLERY */
+
+.gallery {
+    background-color: #b40000;
+}
+
+.gallery-text {
+    text-align: center;
+    padding: 0.8em;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+.carousel-pad {
+    padding: 0em 2em 3.4em 2em;
+}
+
+/* MENU BUTTON */
+
+.btn {
+    padding: 0.5em;
+    margin: 0em;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2em;
+
+}
+
+.btn-danger {
+    background-color: #b40000;
+}
+
+#about {
+    padding: 4em;
+}
+
+.about-text{
+    display: inline-block;
+    text-align: center;
+}
+
+.about-text h1 {
+    padding-top: 0em;
+    font-size: 3.6em;
+}
+
+.a-text {
+  padding: 20% 2%;
+  text-align: center;
+}
+
+.about {
+    background-image: url(../img/rochester.jpg);
+    background-size: cover;
+}
+
+.overlaya {
+    background: rgba(0, 0, 0, 0.21);
+
+}
+
+
+h2 {
+    font-size: 3em;
+}
+
+.form {
+    padding: 1em 5em;
+}
+
+
+.phone-lg {
+    text-align: center;
+    padding: 2em;
+}
+
+.call {
+    color: #262626;
+}
+
+/* MENU */
+
+
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffc107;
+}
+
+.nav li a {
+    background-color: #b40000;
+}
+
+
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #b40000;
+}
+
+h1{
+    font-size: 5em;
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+    color: #ffc107;
+    text-align: center;
+    text-transform: uppercase
+}
+
+h6 {
+  display:inline-block;
+  font-size: 32px;
+  line-height: 36px;
+  position: relative;
+  margin-top:28px;
+  margin-bottom:15px;
+  color:#ffc107;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0 0 15px;
+  font-weight: 400;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.menu-img {
+    padding: 4em;
+}
+
+.item {
+  position: relative;
+  overflow: hidden;
+  margin-bottom:20px;
+}
+.item h4, .price {
+  z-index: 0;
+  position: relative;
+  background-color: #fff;
+  right: 0;
+  position: absolute;
+}
+.item .price {
+  padding-left: 8px;
+}
+.item h4, .item p {
+  display: block;
+  clear: both;
+  color: #b40000;
+}
+.item p {
+  clear: both;
+  color: #600000;
+  margin-left:10px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0 10px;
+  background: #d2c82a;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: 1px solid rgba(0,0,0,.05);
+  letter-spacing: 1px;
+  border-radius: 3px;
+  margin: -5px 5px 0 0;
+}
+
+
+.price {
+  position: absolute;
+  font-size:22px;
+  font-weight:400;
+  right: 0;
+}
+.item h4 {
+  display: inline-block;
+  padding-right: 8px;
+  max-width: 80%;
+  text-transform: capitalize;
+  margin-bottom:4px;
+  position: relative;
+}
+
+
+/* FOOTER */
+
+.footer {
+	background: #262626;
+	padding: 50px 50px;
+}
+.footer h3 {
+	color: #ffc107;
+	font-weight: 400;
+    text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact-item a {
+    color: white;
+}
+
+
+/* MEDIA QUERIES */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 3em;
+      padding-top: 1.5em;
+    }
+
+    .h-text h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        padding-top: 1.2em;
+        font-size: 1.9em;
+    }
+
+    .about-text h1 {
+    padding-top: 0em;
+    font-size: 2.2em;
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    h1{
+        font-size: 7em;
+    }
+
+    .h-text h1 {
+        font-size: 8em;
+    }
+
+    .btn {
+    padding: 0.5em;
+    margin: 0em;
+    color: white;
+    font-weight: 400;
+    font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 4.5em;
+    }
+}
+
